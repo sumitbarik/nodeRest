@@ -7,15 +7,15 @@ Steps to execute:
 - download project
 - install mongo db locally. 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"   
--   install brew
+-   install brew.
 brew tap mongodb/brew   
--   install mongo using brew
+-   install mongo using brew.
 brew install mongodb-community@4.0
 
-- start mongo db locally from terminal
+- start mongo db locally from terminal.
 mongod --config /usr/local/etc/mongod.conf
 
 - import in vs code(any editor).
-- build and run node server
+- build and run node server.
 npm run start
 - now run the CRUD operation on topic using rest client
