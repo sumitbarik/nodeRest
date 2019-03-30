@@ -6,8 +6,10 @@ Created using Node 8.11.4, Express ^4.16.4 Mongoose ^5.4.16
 Steps to execute:
 - download project
 - install mongo db locally. 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"   -   install brew
-brew tap mongodb/brew   -   install mongo using brew
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"   
+-   install brew
+brew tap mongodb/brew   
+-   install mongo using brew
 brew install mongodb-community@4.0
 
 - start mongo db locally from terminal
