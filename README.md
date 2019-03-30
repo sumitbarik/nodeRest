@@ -1,4 +1,4 @@
-# SpringBoot
+# Node JS rest web service sample
 
 This is a sample rest web service created using node js.
 Created using Node 8.11.4, Express ^4.16.4 Mongoose ^5.4.16
