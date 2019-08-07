@@ -12,4 +12,7 @@ module.exports = function(app) {
     .get(topicList.read_a_topic)
     .put(topicList.update_a_topic)
     .delete(topicList.delete_a_topic);
+
+    app.route('/topicFromBoot')
+    .get(topicList.getTopicsFromBoot);
 };
